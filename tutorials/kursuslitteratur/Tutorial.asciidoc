@@ -50,9 +50,9 @@ betingelserne.
 == Supplerende (Avanceret) Litteratur
 
 Bogen "Expert F# 3.0", skrevet af Don Syme, Adam Granicz, og Antonio
-Cisternino, udgivet af Apress i 2012, ISBN 978-1-4302-4650-3 (Print)
-978-1-4302-4651-0 (Online), ligger også gratis tilgengælig for KU studerende
-og ansatte:
+Cisternino, udgivet af Apress i 2012, ISBN: 978-1-4302-4650-3 (Print)
+978-1-4302-4651-0 (Online), ligger også gratis tilgengælig for KU studerende og
+ansatte:
 
 http://link.springer.com/book/10.1007%2F978-1-4302-4651-0
 
