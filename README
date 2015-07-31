@@ -15,3 +15,4 @@ Hvad kan du lege med af F# i dag?
 * Pop-quizzes til at lære F# i stil med DuoLingo
   * Se evt. https://github.com/christiankjaer/pop-webhelp
 * F# playground (web-interface til en F#-sandkasse)
+  * Herunder en port af http://www.tryfsharp.org/ til sand multi-platform
