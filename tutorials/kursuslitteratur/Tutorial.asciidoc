@@ -3,11 +3,24 @@ v0.1, 31. juli 2015
 :sectnums:
 :sectanchors:
 
+Kursuslitteraturn i kurset http://www.webcitation.org/6aQgDgKx9[Programmering
+og problemløsning (PoP) 2015] er "Functional Programming Using F#", skrevet af
+Michael R. Hansen og Hans Rischel (DTU), udgivet i 2013 af Cambridge University
+Press, ISBN: 9781107019027.
+
 == Find Bogen
+
+En fysisk udgave af bogen kan købes fra
+http://www.academicbooks.dk/functional-programming-using-f%2523/hans-rischel/michael-r-hansen/9781107019027[fakultetets
+boghandel], på
+http://www.amazon.co.uk/Functional-Programming-Using-Michael-Hansen/dp/1107684064/[Amazon],
+eller
+http://www.cambridge.org/dk/academic/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-using-f[direkte
+fra udgiveren].
 
 PDF-udgaven af bogen ligger gratis tilgængelig for KU studerende og ansatte.
 
-Du skal blot være forbundet til eduroam og herefter følge linket:
+Man skal blot være forbundet til eduroam og herefter følge linket:
 
 http://dx.doi.org.ep.fjernadgang.kb.dk/10.1017/CBO9781139093996
 
@@ -16,28 +29,19 @@ Det kan betale sig at lægge en bogmærke for dette link.
 Hvis ikke linket her virker, kan man prøve selv at finde bogen via REX:
 
 . Gå ind på http://rex.kb.dk/.
-. Søg efter "Functional Programming Using F#".
-  * Bogen er skrevet af Michael R. Hansen og Hans Rischel (DTU).
-  * Den er udgivet i 2013 af Cambridge University Press.
+. Søg efter "Functional Programming Using F#", tjek evt. efter forfatter,
+  udgivelsesår og udgiver.
 . Tryk "Online adgang".
 
 == Hent Enkelte Kapitler
 
-Betingelserne for brug af den gratis udgave af bogen kan man læse her:
-http://ebooks.cambridge.org.ep.fjernadgang.kb.dk/terms.jsf
+Betingelserne for brug af PDF-udgaven kan man læse om her:
+http://ebooks.cambridge.org.ep.fjernadgang.kb.dk/terms.jsf.
 
-Bemærkelsesværdigt *må der kun hentes 600 PDF-filer* for en enkel bog *per
-time*.  Vi beder jer derfor om ikke at hente alle kapitler på en gang, men at
+Bemærkelsesværdigt *må der kun hentes 600 PDF-filer* for en enkel bog *i
+timen*.  Vi beder jer derfor om ikke at hente alle kapitler på en gang, men at
 hente kapitlerne først når I har brug for dem. Det skal være en fair tjenneste
 for os alle.
 
 Ydermere, må de enkelte kapitler ikke samles, eller alle printes på en gang jf.
 betingelserne.
-
-Man kan købe en fysisk udgave af bogen fra
-http://www.academicbooks.dk/functional-programming-using-f%2523/hans-rischel/michael-r-hansen/9781107019027[fakultetets
-boghandel], på
-http://www.amazon.co.uk/Functional-Programming-Using-Michael-Hansen/dp/1107684064/[Amazon],
-eller direkte fra
-http://www.cambridge.org/dk/academic/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-using-f[Cambridge
-University Press].
