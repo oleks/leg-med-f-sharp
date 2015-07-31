@@ -18,7 +18,7 @@ eller
 http://www.cambridge.org/dk/academic/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-using-f[direkte
 fra udgiveren].
 
-PDF-udgaver af de enkelte kapitler ligger gratis tilgængelig for KU studerende
+PDF-udgaver af de enkelte kapitler ligger gratis tilgængelige for KU studerende
 og ansatte.
 
 Man skal blot være forbundet til eduroam og herefter følge linket:
