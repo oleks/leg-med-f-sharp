@@ -4,3 +4,11 @@ Hvad kan du lege med af F# i dag?
   * (DONE) Find og hent kursuslitteraturen
   * Find, download, og installér F# på dit system
   * Find, download, og installér Emacs på dit system
+* Konvertér gamle SML opgaver til F#
+  * Opdag essentielle finurligheder ved F# ift. SML.
+* F#-mode til Emacs, evt. installationsscript til F# og Emacs med F#-mode
+  * Se også https://github.com/Eckankar/ip-pakken
+* F# linter
+  * Se evt. https://github.com/Eckankar/SMLint
+* Test-suite til F# egnet til at rette PoP opgaver
+  * Se evt. https://github.com/br0ns/iptest
