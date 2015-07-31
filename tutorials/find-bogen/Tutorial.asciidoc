@@ -1,8 +1,7 @@
-= Find, Hent, og Saml Kursuslitteraturen
+= Find og Hent Kursuslitteraturen
 v0.1, 31. juli 2015
 :sectnums:
 :sectanchors:
-:toc:
 
 == Find Bogen
 
@@ -20,6 +19,25 @@ Hvis ikke linket her virker, kan du prøve selv at finde bogen via REX:
   * Den er udgivet i 2013 af Cambridge University Press.
 . Tryk "Online adgang".
 
-== Hent Bogen
+Det kan betale sig at lægge en bogmærke for dette link.
 
-Bogen ligger spred ud over et antal PDF-filer.
+== Hent Enkelte Kapitler
+
+Betingelserne for brug af den gratis udgave af bogen kan man læse her:
+http://ebooks.cambridge.org.ep.fjernadgang.kb.dk/terms.jsf
+
+Bemærkelsesværdigt må der kun hentes 600 PDF-filer for en enkel bog *per time*.
+Vi beder jer derfor om ikke at hente alle kapitler på en gang, men at hente
+kapitlerne først når I har brug for dem. Det skal være en fair tjenneste for os
+alle.
+
+Ydermere, må de enkelte kapitler ikke samles, eller alle printes på en gang jf.
+betingelserne.
+
+I kan købe en fysisk udgave af bogen fra
+http://www.academicbooks.dk/functional-programming-using-f%2523/hans-rischel/michael-r-hansen/9781107019027[fakultetets
+boghandel], på
+http://www.amazon.co.uk/Functional-Programming-Using-Michael-Hansen/dp/1107684064/[Amazon],
+eller direkte fra
+http://www.cambridge.org/dk/academic/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-using-f[Cambridge
+University Press].
