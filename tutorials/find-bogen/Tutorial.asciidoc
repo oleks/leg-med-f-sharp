@@ -9,8 +9,8 @@ http://dx.doi.org.ep.fjernadgang.kb.dk/10.1017/CBO9781139093996
 
 Hvis ikke linket her virker, kan du prøve selv at finde bogen via REX:
 
-. Gå ind på http://rex.kb.dk/
-. Søg efter "Functional Programming Using F#"
-  * Bogen er skrevet af Michael R. Hansen og Hans Rischel
-  * Bogen er udgivet i 2013 af Cambridge University Press
-. Tryk "Online adgang"
+. Gå ind på http://rex.kb.dk/.
+. Søg efter "Functional Programming Using F#".
+  * Bogen er skrevet af Michael R. Hansen og Hans Rischel (DTU).
+  * Den er udgivet i 2013 af Cambridge University Press.
+. Tryk "Online adgang".
