@@ -1,5 +1,10 @@
-= Find, Download, og Saml Kursubogen
+= Find, Hent, og Saml Kursuslitteraturen
 v0.1, 31. juli 2015
+:sectnums:
+:sectanchors:
+:toc:
+
+== Find Bogen
 
 PDF-udgaven af bogen er gratis tilgængelig for KU studerende og ansatte.
 
@@ -14,3 +19,7 @@ Hvis ikke linket her virker, kan du prøve selv at finde bogen via REX:
   * Bogen er skrevet af Michael R. Hansen og Hans Rischel (DTU).
   * Den er udgivet i 2013 af Cambridge University Press.
 . Tryk "Online adgang".
+
+== Hent Bogen
+
+Bogen ligger spred ud over et antal PDF-filer.
