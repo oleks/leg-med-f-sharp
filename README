@@ -12,3 +12,6 @@ Hvad kan du lege med af F# i dag?
   * Se evt. https://github.com/Eckankar/SMLint
 * Test-suite til F# egnet til at rette PoP opgaver
   * Se evt. https://github.com/br0ns/iptest
+* Pop-quizzes til at lære F# i stil med DuoLingo
+  * Se evt. https://github.com/christiankjaer/pop-webhelp
+* F# playground (web-interface til en F#-sandkasse)
