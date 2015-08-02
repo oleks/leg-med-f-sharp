@@ -1,4 +1,4 @@
-  //module Exam2011
+module Exam2011
 
   open Operators.Checked // changes definitions of basic arithmetic operators to catch overflow.
 
@@ -137,44 +137,71 @@
     else
       printfn "This is not a matrix"; (0,0)
 
-let transpose xl =
-  let rec transpose_help xl1 n =
-    if (length_of_list xl1 = n) then
-      []
-    else
-      List.map (getn n) xl1 :: (transpose_help xl1 (n+1))
-  in
+  let transpose xl =
+    let rec transpose_help xl1 n =
+      if (length_of_list xl1 = n) then
+        []
+      else
+        List.map (getn n) xl1 :: (transpose_help xl1 (n+1))
+      in
     transpose_help xl 0
 
 // let getElement1 xl i j = getn j (getn i xl)
 
 // let getElement2 xl i j = getn i (getn j xl)
 
-let getRow (A:matrix<int>) n = getn (n-1) A
+  let getRow (A:matrix<int>) n = getn (n-1) A
 
-let getColumn (A:matrix<int>) n = List.map (getn (n-1)) A
+  let getColumn (A:matrix<int>) n = List.map (getn (n-1)) A
 
-let rec multiplyElements xl yl =
-  if (length_of_list(xl) = length_of_list(yl)) then
-    match xl, yl with
-      | x :: xs, y :: ys -> x*y :: (multiplyElements xs ys)
-      | [], _ -> []
-      | _, [] -> []
-  else
-    printfn "Lists have wrong length"; []
+  let rec multiplyElements xl yl =
+    if (length_of_list(xl) = length_of_list(yl)) then
+      match xl, yl with
+        | x :: xs, y :: ys -> x*y :: (multiplyElements xs ys)
+        | [], _ -> []
+        | _, [] -> []
+      else
+        printfn "Lists have wrong length"; []
       
 
-let getMultiIndex (A:matrix<int>) (B:matrix<int>) i j =
-  List.fold (fun x y -> x+y) 0 (multiplyElements (getRow A i) (getColumn B j))
+  let getMultiIndex (A:matrix<int>) (B:matrix<int>) i j =
+    List.fold (fun x y -> x+y) 0 (multiplyElements (getRow A i) (getColumn B j))
 
-// Get 1 row of a matrix C = A*B
-let multiply1 (A:matrix<int>) (B:matrix<int>) n =
-  List.map (getMultiIndex A B n) [1..(length_of_list (getColumn A 1))];;
+  // Get 1 row of a matrix C = A*B
+  let multiply1 (A:matrix<int>) (B:matrix<int>) n =
+    List.map (getMultiIndex A B n) [1..(length_of_list (getColumn A 1))];;
 
-let multiply (A:matrix<int>) (B:matrix<int>) = List.map (multiply1 A B) [1..(length_of_list (getColumn A 1))]
+  let multiply (A:matrix<int>) (B:matrix<int>) = List.map (multiply1 A B) [1..(length_of_list (getColumn A 1))]
 
-let A:matrix<int> = [[4;1;3];[2;0;5]]
-let B:matrix<int> = [[4;2];[1;0];[3;5]]
-
+  let A:matrix<int> = [[4;1;3];[2;0;5]]
+  let B:matrix<int> = [[4;2];[1;0];[3;5]]
 
   
+/// Converts a string into a list of characters.
+  let explode (s:string) =
+    [for c in s -> c]
+  
+/// Converts a list of characters into a string.
+  let implode (xs:char list) =
+    let sb = System.Text.StringBuilder(xs.Length)
+    xs |> List.iter (sb.Append >> ignore)
+    sb.ToString()
+
+  let BWT s =
+    let cl = explode(s)
+    let N = length_of_list(cl)
+    let BWT_rotate (s:string) =
+      let BWT_cl_construct (s:string) =
+        let rec BWT_cl cl j =
+          if j = N then
+            []
+          else
+            List.permute (fun i -> (i+j) % N) cl :: (BWT_cl cl (j+1))
+        BWT_cl cl 0
+      List.sort(BWT_cl_construct s)
+    implode(List.map (getn (N-1)) (BWT_rotate s))
+
+  // let InvBWT t w =
+  //   let cl = explode(t)
+  //   let N = length_of_list(cl)
+  //   let temp 
